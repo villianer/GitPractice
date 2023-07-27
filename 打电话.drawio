@@ -1,9 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T05:29:26.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.5" etag="rbQZn5R2Id6QlpGh6YA3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T06:36:26.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wmc3AyqzJnW8y26xj0_q" version="21.6.5" type="github">
   <diagram name="第 1 页" id="ZQOok393BUI-sjCA4brk">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-1" target="GvJKUw5nog8gCAYgyyZx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-1" value="模块初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-4" target="GvJKUw5nog8gCAYgyyZx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-4" value="AT+CLVL设置音量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-6" target="GvJKUw5nog8gCAYgyyZx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-6" value="AT+CLVL设置音量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-8" target="GvJKUw5nog8gCAYgyyZx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-8" value="拨打电话ATD10086;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-12" target="GvJKUw5nog8gCAYgyyZx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-12" target="GvJKUw5nog8gCAYgyyZx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-12" target="GvJKUw5nog8gCAYgyyZx-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-12" value="每3ms发送一次AT+CLCC&lt;br&gt;查询接通状态&lt;br&gt;AT+CPAS可以替代" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="650" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-17" target="GvJKUw5nog8gCAYgyyZx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-17" value="无法接通，并回到idel状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-19" value="+CLCC: 1,0,0,0,0,&quot;10086&quot;,129,&quot;&quot;,0,0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="690" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-20" target="GvJKUw5nog8gCAYgyyZx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-20" value="拨号成功响铃中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-22" value="&lt;div&gt;AT+CLCC&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-24" value="60没接通则返回NO CARRIER" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="770" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-25" value="+CLCC: 1,0,2,0,0,&quot;10086&quot;,129,&quot;&quot;,0,0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="810" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-26" target="GvJKUw5nog8gCAYgyyZx-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-26" target="GvJKUw5nog8gCAYgyyZx-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-26" value="通话中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-28" value="+CLCC: 1,0,0,0,0,&quot;10086&quot;,129,&quot;&quot;,0,0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="940" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-29" target="GvJKUw5nog8gCAYgyyZx-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-29" value="对方挂断收到NO CARRIER" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-31" value="&#xa;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;AT+CLCC&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&#xa;&#xa;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GvJKUw5nog8gCAYgyyZx-33" target="GvJKUw5nog8gCAYgyyZx-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-33" value="发送ATH主动挂断" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-37" value="&lt;div&gt;AT+CLCC&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-39" value="未接通" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GvJKUw5nog8gCAYgyyZx-41" value="+CLCC: 1,0,2,0,0,&quot;10086&quot;,129,&quot;&quot;,0,0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="700" width="220" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
