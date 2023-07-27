@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T11:32:30.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.5" etag="yjWx2Tg8nhHS0uAhWmXH" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T11:44:28.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="3R9ulv1OEP0iOmBuaTt5" version="21.6.5" type="github">
   <diagram name="第 1 页" id="D4k9jfQjFZYJnv0QbSYI">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UrFejqlAq6pzDz48Eub7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UrFejqlAq6pzDz48Eub7-1" target="UrFejqlAq6pzDz48Eub7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UrFejqlAq6pzDz48Eub7-1" value="MCU接收到RING命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UrFejqlAq6pzDz48Eub7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UrFejqlAq6pzDz48Eub7-2" target="UrFejqlAq6pzDz48Eub7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UrFejqlAq6pzDz48Eub7-2" value="&lt;div&gt;AT+CLCC&lt;/div&gt;&lt;div&gt;查询通信状态返回4&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UrFejqlAq6pzDz48Eub7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UrFejqlAq6pzDz48Eub7-4" target="UrFejqlAq6pzDz48Eub7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UrFejqlAq6pzDz48Eub7-4" value="ATA接电话" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UrFejqlAq6pzDz48Eub7-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UrFejqlAq6pzDz48Eub7-6" target="UrFejqlAq6pzDz48Eub7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UrFejqlAq6pzDz48Eub7-6" value="ATH挂电话" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UrFejqlAq6pzDz48Eub7-8" value="对方挂断接收到NO CARRIER" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
